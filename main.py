@@ -1,6 +1,5 @@
 # ZADANIE1
 
-
 def Zadanie1(name: str, surname: str) -> str:
     return "Cześć " + name + " " + surname
 
@@ -58,19 +57,23 @@ def Zadanie5(x: list, y: int):
 
     return "Nie zawiera"
 
+
 print(Zadanie5([1, 2, 4, 5], 5))
+
+
 print(Zadanie5([1, 2, 4], 5))
 
 # ZADANIE 6
 
+
 def Zadanie6(x: list, y: list) -> list:
     z = x+y
-    z=list(dict.fromkeys(z))
-    i=0
+    z = list(dict.fromkeys(z))
+    i = 0
     for x in z:
-        z[i] =x ** 3
-        i+=1
+        z[i] = x ** 3
+        i += 1
     return z
 
-print(Zadanie6([2, 3, 4, 5], [2, 3, 4]))
 
+print(Zadanie6([2, 3, 4, 5], [2, 3, 4]))
