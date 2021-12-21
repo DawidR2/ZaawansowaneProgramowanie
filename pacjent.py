@@ -24,5 +24,5 @@ class Pacjent:
 
     def __str__(self):
         return f'Imię: {self.imie}, nazwisko: {self.nazwisko},' \
-        f' data urodzenia: {self.data_urodzenia},' \
-        f' telefon kontaktowy: {self.telefon}'
+               f' data urodzenia: {self.data_urodzenia},' \
+               f' telefon kontaktowy: {self.telefon}'

@@ -46,16 +46,13 @@ class Zamowienie:
                f"Diety:\n{''.join(str(x) for x in self._diety)}"
 
 
-
-
-
 z = Zamowienie()
 
 z.pacjent = p.Pacjent('Jan', 'Nowak', "21/04/93", "942345123")
 z.dietetyk = di.Dietetyk('Robert', 'Nijaki', 54, "997623123")
-z.diety = [d.Dieta( 'Robert', 'Nijaki', 54,"997623123", 120, 2500 ),
-           d.Dieta( 'Robert', 'Nijaki', 54,"997623123", 400, 3000 ),
-           d.Dieta( 'Robert', 'Nijaki', 54,"997623123", 300, 5000 ),]
+z.diety = [d.Dieta('Robert', 'Nijaki', 54, "997623123", 120, 2500),
+           d.Dieta('Robert', 'Nijaki', 54, "997623123", 400, 3000),
+           d.Dieta('Robert', 'Nijaki', 54, "997623123", 300, 5000), ]
 
 print(z)
 print(z.ilosc_kalorii())

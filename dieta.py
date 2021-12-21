@@ -21,5 +21,3 @@ class Dieta(di):
                f' Nazwisko autora diety: {self.nazwisko}' \
                f' Wiek dietetyka: {self.wiek}' \
                f' Telefon do dietetyka: {self.telefon}\n'
-
-
