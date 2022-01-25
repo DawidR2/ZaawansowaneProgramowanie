@@ -13,8 +13,8 @@ KLASY = ["background", "aeroplane", "bicycle", "bird", "boat",
 
 
 def main():
-    # obraz = cv2.imread('ludzie.jpg')
-    obraz = cv2.imread('ludzie2.jpg')
+
+    obraz = cv2.imread('ludzie3.jpg')
     obraz = imutils.resize(obraz, width=600)
 
     (H, W) = obraz.shape[:2]
